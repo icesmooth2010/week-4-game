@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Jess' Crystal Collector Game</title>
+
+	<style type="text/css">
+		.crystal-image {
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<h1 class="header">Jess' Crystals Collector!</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 instruction">
+				<p>You have been given a random number to the start the game.</p>
+				<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+				<p>You win the game by matching your total score by adding random numbers. To lose the game, your total score goes above the
+					random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-6 randomNumber">Random Generated Number</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4 totalWL">
+				<div class="Number to Guess">Number to Guess</div>
+				<div class="row wins">Wins</div>
+				<div class="row losses">Losses</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-3 gems">
+				<div id="img1"></div>
+			</div>
+			<div class="col-lg-3">
+				<div id="img2"></div>
+			</div>
+			<div class="col-lg-3">
+				<div id="img3"></div>
+			</div>
+			<div class="col-lg-3">
+				<div id="img4"></div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-6 totalScore">Your Current score is</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-6 scoreDisplay">Your Score</div>
+		</div>
+	</div>
+
+
+	<div id="crystals">
+	</div>
+	
+	<script src="assets/javascript/game.js"></script>
+		
+
+</body >
+</html >
