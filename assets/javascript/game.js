@@ -1,5 +1,3 @@
-prompt('Welcome to the Crystal Challenge");
-
 $(document).ready(function () {
 
 
@@ -19,19 +17,19 @@ $(document).ready(function () {
 
     var gemOne = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 1: " + gemOne);
-    $("#img1").html("<img src=" + "assets/images/gem1.jpg" + " value=" + gemOne + ">");
+    $("#img1").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem1.jpg" + " value=" + gemOne + ">");
 
     var gemTwo = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 2: " + gemTwo);
-    $("#img2").html("<img src=" + "assets/images/gem2.png" + " value=" + gemTwo + ">");
+    $("#img2").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem2.png" + " value=" + gemTwo + ">");
 
     var gemThree = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 3: " + gemThree);
-    $("#img3").html("<img src=" + "assets/images/gem3.jpg" + " value=" + gemThree + ">");
+    $("#img3").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem3.jpg" + " value=" + gemThree + ">");
 
     var gemFour = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 4: " + gemFour);
-    $("#img4").html("<img src=" + "assets/images/gem4.png" + " value=" + gemFour + ">");
+    $("#img4").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem4.jpg" + " value=" + gemFour + ">");
 
     var wins = 0;
     console.log("wins: " + wins);
@@ -56,19 +54,19 @@ $(document).ready(function () {
 
         gemOne = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 1: " + gemOne);
-        $("#img1").html("<img src=" + "assets/images/image1.png" + " value=" + gemOne + ">");
+        $("#img1").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem1.jpg" + " value=" + gemOne + ">");
 
         gemTwo = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 2: " + gemTwo);
-        $("#img2").html("<img src=" + "assets/images/image2.png" + " value=" + gemTwo + ">");
+        $("#img2").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem2.png" + " value=" + gemTwo + ">");
 
         gemThree = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 3: " + gemThree);
-        $("#img3").html("<img src=" + "assets/images/image3.png" + " value=" + gemThree + ">");
+        $("#img3").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem3.jpg" + " value=" + gemThree + ">");
 
         gemFour = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 4: " + gemFour);
-        $("#img4").html("<img src=" + "assets/images/image4.png" + " value=" + gemFour + ">");
+        $("#img4").html("<img src=" + "file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/gem4.jpg" + " value=" + gemFour + ">");
 
         $("img").on("click", function () {
             var newScore = score += parseInt($(this).attr("value"));

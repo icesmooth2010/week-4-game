@@ -1,0 +1,13 @@
+body {
+background-image: url(file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/wallpaper3.jpg);
+
+background-repeat: no-repeat;
+background-size: 2000px 2000px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+.crystal-image {
+    width: 300px;
+    height: 168px;
+}
