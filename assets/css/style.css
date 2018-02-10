@@ -5,9 +5,24 @@ background-repeat: no-repeat;
 background-size: 2000px 2000px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 20px;
+color: red;
+
 
 }
-.crystal-image {
+#img1 {
+width: 300px;
+height: 169.750;
+border: solid skyblue 5px;
+}
+#img2 {
+    width: 300px;
+    height: 168px;
+}
+#img3 {
+    width: 300px;
+    height: 168px;
+}
+#img4 {
     width: 300px;
     height: 168px;
 }
