@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     var gemOne = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 1: " + gemOne);
-    $("#img1").html("<img src=" + "assets/images/gem5.png" + " value=" + gemOne + ">");
+    $("#img1").html("<img src=" + "assets/images/gem1.jpg" + " value=" + gemOne + ">");
 
     var gemTwo = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 2: " + gemTwo);
@@ -54,7 +54,7 @@ $(document).ready(function () {
 
         gemOne = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 1: " + gemOne);
-        $("#img1").html("<img src=" + "assets/images/gem5.png" + " value=" + gemOne + ">");
+        $("#img1").html("<img src=" + "assets/images/gem1.jpg" + " value=" + gemOne + ">");
 
         gemTwo = Math.floor(Math.random() * 12) + 1;
         console.log("Gem 2: " + gemTwo);

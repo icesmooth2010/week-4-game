@@ -1,15 +1,15 @@
 body {
-background-image: url(file:///C:/Users/Icesmooth/Desktop/code/week-4-game/assets/images/wallpaper3.jpg);
+background-image: url(http://wall--art.com/wp-content/uploads/2014/05/Legend-of-Zelda-Link-Wallpaper-the-legend-of-zelda-33549054-1440-900.jpg);
 
 background-repeat: no-repeat;
 background-size: 2000px 2000px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 20px;
-color:purple;
+color: red;
 
 
 }
 img {
     height: 120px;
-    
+
 }
